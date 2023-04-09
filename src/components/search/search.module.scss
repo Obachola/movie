@@ -1,0 +1,39 @@
+.root {
+  display: block;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  padding-right: 32px;
+  padding-left: 32px;
+  margin: 0px 0px 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: 1px solid #ef9822;
+  border-radius: 4;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #ef9822;
+}
+.input {
+  border: 1px solid #ef9822;
+  background-color: rgba(255, 255, 255, 0.95);
+  flex-grow: 1;
+}

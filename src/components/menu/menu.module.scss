@@ -1,0 +1,35 @@
+.root {
+  flex-grow: 1;
+  color: #fefefe;
+  background-color: #1a1a1a;
+  height: 100vh;
+}
+.Logo {
+  display: flex;
+  flex-direction: column;
+}
+.bg-default {
+  background-color: #000000;
+  display: flex;
+  padding: 0px 12px;
+  flex-direction: column;
+}
+.mainlogo {
+  display: flex;
+  flex-direction: column;
+}
+.Navigaton {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-decoration-line: none;
+}
+.Nav-item {
+  text-decoration-line: none;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  cursor: pointer;
+}
