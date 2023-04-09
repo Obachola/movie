@@ -6,7 +6,7 @@ export interface CardProps {
     movie: {
         id: string;
         poster_path?: string;
-        title: 'strong';
+        title: string;
         overview: string;
         vote_average: number;
         release_date: string;
