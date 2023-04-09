@@ -1,7 +1,7 @@
 import styles from './container.module.scss';
 import classNames from 'classnames';
 import { Search } from '../search/search';
-import { Card } from '../card/card';
+import { Cards } from '../cards/cards';
 
 export interface ContainerProps {
     className?: string;
@@ -16,7 +16,7 @@ export const Container = ({ className }: ContainerProps) => {
         <div className={classNames(styles.root, className)}>
             <div className={styles.Container}>
                 <Search />
-                <Card />
+                <Cards />
             </div>
         </div>
     );

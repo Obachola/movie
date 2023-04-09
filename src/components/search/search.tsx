@@ -13,7 +13,7 @@ export const Search = ({ className }: SearchProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.search}>
-                <input className={styles.input} />
+                <input className={styles.input} placeholder="Search" />
                 <button className={styles['btn-primary']}>Search</button>
             </div>
         </div>
