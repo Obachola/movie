@@ -22,6 +22,9 @@
   bottom: 0px;
   opacity: 0;
 }
+.card:hover .card-body{
+  opacity: 1;
+}
 .btn-onMovie {
   padding: 8px;
 }
